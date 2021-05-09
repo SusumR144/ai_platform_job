@@ -1,0 +1,4 @@
+Algorithm,,MSE,RMSE,R2 score
+Random Forest Regression,,3762555.85,1939.73,95.23
+Linear Regression,,12114951.86,3480.65,84.65
+XGBoost Regression,,5523832.99,2350.28,93

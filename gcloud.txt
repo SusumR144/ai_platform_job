@@ -1,0 +1,8 @@
+gcloud ai-platform jobs submit training "python_package_submission_4" ^
+--module-name trainer.task ^
+--package-path trainer ^
+--staging-bucket "gs://intern_susum" ^
+--region asia-south1 ^
+--runtime-version=2.4 ^
+--python-version=3.7 
+
